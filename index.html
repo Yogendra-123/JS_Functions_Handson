@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functions</title>
+</head>
+<body>
+
+    <h1 align="center">JS Functions </h1>
+    <br>
+
+
+    <div >
+        <h2>Ques.1 Create one function with zero parameter having a console statement; </h2>
+        <pre>
+            function withNoParameter(){
+                console.log("This is the function without any parameter");  
+            }
+
+            withNoParameter()
+        </pre>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div>
+        <h2>Ques.2  Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"</h2>
+        <pre>
+            function addTwoValues (a , b ){
+                console.log(a+b);
+            }
+
+            addTwoValues(3,56)
+        </pre>
+    </div>
+
+
+    <br>
+    <hr>
+    <br>
+
+    <div>
+        <h2>Ques.3 Create one arrow function. </h2>
+        <pre>
+        let arrowfunction = () => {
+            console.log('This is an arrow function example');
+        }
+        
+        arrowfunction();
+
+        </pre>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div>
+        <h2>Ques.4 Sample Question 1  </h2>
+        <pre>
+            var x = 21;
+            var girl = function () {
+                console.log(x);
+                var x = 20;
+            };
+            girl ();
+
+        </pre>
+    </div>
+    <div class="boxes">
+        <h2>Ques. 5 Sample Question 2 </h2>
+        <pre class="code">
+            var x = 21;
+            girl ();
+            console.log(x)
+            function girl() {
+                console.log(x);
+                var x = 20;
+            };
+
+        </pre>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="boxes">
+        <h2>Ques. 6 Sample Question 3 </h2>
+        <pre class="code">
+            var x = 21;
+            a();
+            b();
+            
+              function a() {
+                
+               x = 20;
+              console.log(x);
+            };
+             function b() {
+                
+                x = 40;
+               console.log(x);
+            };
+            
+        </pre>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="boxes">
+        <h2>Ques.7  Write a function that accepts parameter n and returns factorial of n  </h2>
+        <pre class="code">
+            fact = 0 ;
+            function Factorial (n){
+                if (n === 1){
+                    fact =  1;
+                }
+                else {
+            
+                    fact = n ;
+            
+                  
+                    for ( let i = n ; i >1 ; i--){
+                         fact = fact * (i-1);
+                    }
+                }
+                return fact;
+            }
+            
+            console.log(Factorial(5));
+        </pre>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
+Footer
+
+    <br>
+    <hr>
+<script src="./main.js"></script>
+</body>
+</html>
